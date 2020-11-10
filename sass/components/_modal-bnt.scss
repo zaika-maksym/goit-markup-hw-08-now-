@@ -1,0 +1,21 @@
+.modal-btn {
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2196F3;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms linear 250ms;
+    
+    &:hover {
+    transition: all 250ms linear 250ms;
+    opacity: 0.8;
+    cursor: pointer;
+    }
+
+}

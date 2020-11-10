@@ -1,0 +1,22 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+@import "./base/common";
+
+
+@import "./components/logo-color";
+@import "./components/site-logo";
+@import "./components/navpanel-hover";
+@import "./components/modal-bnt";
+@import "./components/modal";
+@import "./components/follow-link";
+@import "./components/effective-part-btn";
+
+@import "./layout/header";
+@import "./layout/navpanel";
+@import "./layout/effective-part";
+@import "./layout/features";
+@import "./layout/whatwedo";
+@import "./layout/ours-team";
+@import "./layout/customers";
+@import "./layout/footer";

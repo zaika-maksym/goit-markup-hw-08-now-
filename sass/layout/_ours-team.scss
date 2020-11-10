@@ -1,0 +1,236 @@
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .ours-team {
+        
+        width: 768px;
+        max-width: 100%;
+        margin: auto;
+        background-color: #F5F4FA;
+        padding: 15px;
+        box-sizing: border-box;
+        
+
+        &-heading {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 1.166;
+            letter-spacing: 0.03em;
+            color: #212121;
+            padding-top: 60px;
+            
+        }
+        
+    }
+
+    .ours-team-heading-items {
+        margin: auto;
+        width: 450px;
+        max-width: 99%;
+        
+        
+        
+    }
+
+    .union {
+        width: 450px;
+        max-width: 100%;
+    }
+
+    .ours-team-heading-employe {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.187;
+        letter-spacing: 0.03em;
+        color: #212121;
+
+        &-spec {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.03em;
+            color: #757575;
+            
+        }
+
+    }
+
+
+    .shadow {
+        margin-top: 30px;
+        width: 450px;
+        max-width: 99%;
+        
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background-color: #ffffff;
+        
+    }
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 767px),
+  screen and (min-resolution: 192dpi) and (min-width: 767px),
+  screen and (min-resolution: 2dppx) and (min-width: 767px) {
+    .shadow {
+
+        background-image: url(../img/overlay/bg-desk@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+  
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .ours-team {
+        margin: auto;
+        background-color: #F5F4FA;
+        padding: 15px;
+        box-sizing: border-box;
+        
+
+       
+        
+    }
+
+    .ours-team-heading {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.166;
+        letter-spacing: 0.03em;
+        color: #212121;
+        padding-top: 60px;
+        
+    }
+
+    .ours-team-heading-items {
+        width: 768px;
+        max-width: 99%;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 99%;
+        margin: auto;
+    }
+
+    
+
+    .ours-team-heading-employe {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.187;
+        letter-spacing: 0.03em;
+        color: #212121;
+
+        &-spec {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.03em;
+            color: #757575;
+            
+        }
+
+    }
+
+    .shadow:nth-child(even) {
+        margin-left: 20px;
+    }
+    .shadow {
+        
+        margin-top: 30px;
+        width: 354px;
+        max-width: 99%;
+        
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background-color: #ffffff;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ours-team {
+        display: block;
+        background-color: #F5F4FA;
+        margin: auto;
+        
+    
+        
+        
+    }
+    
+    .ours-team-heading {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        letter-spacing: 0.03em;
+        color: #212121;
+        padding-top: 94px;
+    }
+
+    .ours-team-heading-items {
+        margin: auto;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 1200px;
+        max-width: 99%;
+        min-height: 368px;
+        padding-bottom: 94px;
+        
+    }
+    
+    
+    
+    .ours-team-heading-employe {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.187;
+        letter-spacing: 0.03em;
+        color: #212121;
+    
+        &-spec {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.03em;
+            color: #757575;
+            
+        }
+    
+    }
+    
+    .shadow {
+        width: 270px;
+        height: 428px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background-color: #ffffff;
+    }
+
+    .shadow:nth-child(n+2) {
+        margin-left: 30px;
+    }
+
+}

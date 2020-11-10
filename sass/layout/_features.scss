@@ -1,0 +1,215 @@
+@media screen and (min-width: 100px) and (max-width: 767px) {
+
+
+.section-features {
+    margin: auto;
+    width: 480px;
+    max-width: 99%;
+    margin-top: 45px;
+    padding: 13px;
+    box-sizing: border-box;
+    
+}
+
+// .section-container {
+    
+//     width: 450px;
+//     max-width: 98%;
+    
+
+// }
+.sf-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+    &-svg {
+        background-color: lightcoral;
+    }
+
+}
+
+
+.section-heading {
+    display: flex;
+    justify-content: center;
+    // width: 270px;
+    // height: 16px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    &-bottom {
+        display: flex;
+        justify-content: space-around;
+        max-width: 480px;
+        height: 75px;
+        margin-top: 10px;
+        font-weight: 400;
+        // text-align: center;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: #757575;
+        
+    }
+
+}
+
+
+// .section-container:nth-child(n + 2) {
+//     padding-left: 30px;
+// }
+
+}
+
+// TABLET-------------------------------------------------------------------
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+.section-features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 767px;
+    max-width: 99%;
+    margin-top: 45px;
+    padding: 13px;
+    box-sizing: border-box;
+    
+    
+}
+
+.section-container {
+    
+    width: 354px;
+    max-width: 98%;
+
+
+}
+
+.section-container:nth-child(even) {
+    margin-left: 25px;
+}
+
+.section-container:nth-child(n+3) {
+    margin-top: 30px;
+}
+
+.sf-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+    &-svg {
+        background-color: lightcoral;
+    }
+
+}
+
+
+.section-heading {
+    display: flex;
+    justify-content: center;
+    // width: 270px;
+    // height: 16px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    &-bottom {
+        display: flex;
+        justify-content: space-around;
+        max-width: 480px;
+        height: 75px;
+        margin-top: 10px;
+        font-weight: 400;
+        // text-align: center;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: #757575;
+        
+    }
+
+}
+
+
+// .section-container:nth-child(n + 2) {
+//     padding-left: 30px;
+// }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .section-features {
+        margin: auto;
+        display: flex;
+        width: 1170px;
+        height: 251px;
+        justify-content: center;
+        margin-top: 94px;
+        box-sizing: border-box;
+    }
+    
+    .sf-item-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
+        height: 120px;
+        background-color: #F5F4FA;
+        background-origin: padding-box;
+        border-radius: 4px;
+    
+        &-svg {
+            background-color: lightcoral;
+        }
+    
+    }
+    
+    
+    .section-heading {
+        display: flex;
+        width: 270px;
+        height: 16px;
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        &-bottom {
+            display: flex;
+            justify-content: space-around;
+            width: 270px;
+            height: 75px;
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            color: #757575;
+            
+        }
+    
+    }
+    
+    
+    .section-container:nth-child(n + 2) {
+        padding-left: 30px;
+    }
+}

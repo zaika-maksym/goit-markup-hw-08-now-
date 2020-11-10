@@ -1,0 +1,217 @@
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .customers {
+        width: 479px;
+        max-width: 99%;
+        padding: 0 15px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        
+    
+    
+        &-heading {
+            padding-top: 60px;
+            padding-bottom: 30px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.166;
+            letter-spacing: 0.03em;
+            color: #212121;
+            
+            
+        }
+    
+    }
+
+.cs-heading {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    // width: calc(53.3% - 30px);
+    
+    
+}
+
+.cs-heading-img {
+        width: calc(53.3% - 30px);
+}
+    
+.cs-heading-img:not(:nth-child(2n)) {
+        margin-right: 30px;
+}
+  
+.cs-heading-img:not(:nth-child(n + 5)) {
+        margin-bottom: 30px;
+}
+
+.cs-svg {
+    border-style: solid;
+    width: 210px;
+    max-width: 99%;
+    height: 90px;
+    max-height: 99%;
+    color: #AFB1B8;
+    border-width: 1.5px;
+    border-radius: 4px;
+    fill:  #AFB1B8;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+    &:hover {
+        fill: #2196F3;
+        color: #2196F3;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+}
+
+}
+// TABLET---------------------------------------------------------------
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .customers {
+        width: 790px;
+        max-width: 99%;
+        padding: 0 15px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        
+    
+    
+        &-heading {
+            padding-top: 60px;
+            padding-bottom: 30px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.166;
+            letter-spacing: 0.03em;
+            color: #212121;
+            
+            
+        }
+    
+    }
+
+.cs-heading {
+    height: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    // width: calc(53.3% - 30px);
+    
+    
+}
+
+// .cs-heading-img {
+//         width: calc(53.3% - 30px);
+// }
+    
+// .cs-heading-img:not(:nth-child(2n)) {
+//         margin-right: 30px;
+// }
+  
+// .cs-heading-img:not(:nth-child(n + 5)) {
+//         margin-bottom: 30px;
+// }
+.cs-heading-img:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+
+.cs-heading-img:not(:nth-child(n + 4)) {
+    margin-bottom: 30px;
+}
+
+
+.cs-svg {
+    border-style: solid;
+    width: 210px;
+    max-width: 99%;
+    height: 90px;
+    max-height: 99%;
+    color: #AFB1B8;
+    border-width: 1.5px;
+    border-radius: 4px;
+    fill:  #AFB1B8;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+    &:hover {
+        fill: #2196F3;
+        color: #2196F3;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+}
+
+}
+
+
+// PC------------------------------------------------------
+
+@media screen and (min-width: 1200px) {
+
+    .customers {
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    
+    }
+    
+    .customers-heading {
+        display: flex;
+        justify-content: center;
+        height: 42px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        letter-spacing: 0.03em;
+        color: #212121;
+        padding-top: 94px;
+        padding-bottom: 50px;
+        
+    }
+
+    .cs-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 91px;
+        padding-bottom: 94px;
+        
+        
+    }
+    
+    .cs-svg {
+        border-style: solid;
+        width: 170px;
+        max-width: 99%;
+        height: 90px;
+        max-height: 99%;
+        color: #AFB1B8;
+        border-width: 1.5px;
+        border-radius: 4px;
+        fill:  #AFB1B8;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+    
+        &:hover {
+            fill: #2196F3;
+            color: #2196F3;
+            transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+    }
+
+    .cs-heading-img:not(:last-child) {
+        margin-right: 30px;
+    }
+}

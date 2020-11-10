@@ -1,0 +1,142 @@
+.effective-part {
+    
+    // display: block;
+    // width: 1600px;
+    // background-color: rgba(47, 48, 58, 0.4);
+    // background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    // url(../img/overlay/Imgover.jpg);
+    // background-repeat: no-repeat;
+
+    &-main-text {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.364;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        @media screen and (min-width: 100px) and (max-width: 767px) {
+            display: flex;
+            margin-top: 178px;
+            width: 369px;
+            height: 84px;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 1.464;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-align: center;
+            
+        }
+        
+    }
+    
+    @media screen and (min-width: 100px) and (max-width: 767px) {
+    &-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+}
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .effective-part {
+        height: 460px;
+        background-color: rgba(47, 48, 58, 0.4);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        url(../img/overlay/bg-mobile@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 767px),
+  screen and (min-resolution: 192dpi) and (min-width: 767px),
+  screen and (min-resolution: 2dppx) and (min-width: 767px) {
+    .effective-part {
+        background-color: rgba(47, 48, 58, 0.4);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        url(../img/overlay/bg-desk@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .effective-part {
+        background-color: rgba(47, 48, 58, 0.4);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        url(../img/overlay/bg-tablet@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+
+
+    .effective-part {
+        height: 400px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.464;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+
+        &-main-text {
+            width: 369px;
+            margin: auto;
+            padding-top: 118px;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 1.364;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .effective-part {
+        margin: auto;
+        background-color: rgba(47, 48, 58, 0.4);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        url(../img/overlay/bg-desk@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        &-main {
+            padding-top: 200px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        }
+         
+    .effective-part-main-text {
+        width: 696px;
+        height: 120px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.364;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #FFFFFF;
+        
+    }
+    
+}

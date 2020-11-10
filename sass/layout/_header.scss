@@ -1,0 +1,66 @@
+
+
+.header {
+    background-color: #fff;
+
+    }
+    @media screen and (min-width: 100px) and (max-width: 767px) {
+
+        
+
+        .header {
+            width: 767px;
+            max-width: 99%;
+            margin: auto;
+            max-width: 100%;
+            display: flex;
+            height: 60px;
+            position: fixed;
+            z-index: 2;
+            
+            
+        }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+    .header {
+        width: 1199px;
+        max-width: 99%;
+        display: flex;
+        height: 80px;
+        margin: 0;
+        
+        
+    }
+
+    .header-container {
+        
+        width: 766px;
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+
+    .header {
+        width: 1200px;
+        max-width: 99%;
+        display: flex;
+        height: 80px;
+        margin: 0;
+        
+        
+    }
+
+    .header-container {
+        
+        width: 1200px;
+        max-width: 100%;
+        margin: auto;
+    }
+}

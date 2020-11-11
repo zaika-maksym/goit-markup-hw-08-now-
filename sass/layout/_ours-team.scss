@@ -1,7 +1,7 @@
 @media screen and (min-width: 100px) and (max-width: 767px) {
     .ours-team {
         
-        width: 768px;
+        width: 767px;
         max-width: 100%;
         margin: auto;
         background-color: #F5F4FA;
@@ -27,6 +27,7 @@
         margin: auto;
         width: 450px;
         max-width: 99%;
+        padding-bottom: 60px;
         
         
         
@@ -84,10 +85,7 @@
         background-color: #F5F4FA;
         padding: 15px;
         box-sizing: border-box;
-        
-
-       
-        
+    
     }
 
     .ours-team-heading {
@@ -109,8 +107,10 @@
         flex-wrap: wrap;
         max-width: 99%;
         margin: auto;
+        padding-bottom: 60px;
     }
 
+    
     
 
     .ours-team-heading-employe {

@@ -1,20 +1,21 @@
 @media screen and (min-width: 100px) and (max-width: 767px) {
-.follow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &-board {
-        display: inline-flex;
+    .follow {
+        display: flex;
+        align-items: center;
         justify-content: center;
-        width: 210px;
-        min-width: 100%;
-        height: 50px;
-        margin-top: 16px;
-        padding-bottom: 24px;
-        
+    
+        &-board {
+            display: inline-flex;
+            justify-content: center;
+            width: 210px;
+            min-width: 100%;
+            height: 50px;
+            margin-top: 26px;
+            padding-bottom: 34px;
+            
+        }
     }
-}
+
 
 
 
@@ -50,7 +51,7 @@
 
 }
 
-@media screen and (min-width: 767px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .follow {
         display: flex;
         align-items: center;

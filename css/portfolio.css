@@ -1035,6 +1035,7 @@ body.modal-open {
     text-transform: capitalize;
     padding-left: 25px;
     padding-top: 2px;
+    padding-bottom: 20px;
     box-sizing: border-box;
   }
   .portfolio-item-heading {

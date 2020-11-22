@@ -44,6 +44,7 @@
 
 @media screen and (min-width: 100px) and (max-width: 767px) {
     .effective-part {
+        
         height: 460px;
         background-color: rgba(47, 48, 58, 0.4);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
@@ -57,10 +58,11 @@
     }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 767px),
-  screen and (min-resolution: 192dpi) and (min-width: 767px),
-  screen and (min-resolution: 2dppx) and (min-width: 767px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .effective-part {
+        
         background-color: rgba(47, 48, 58, 0.4);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
         url(../img/overlay/bg-desk@2x.jpg);

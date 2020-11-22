@@ -191,6 +191,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
+    .header {
+        margin: 0 auto;
+    }
+
     .header-menu-button {
         display: none;
     }
@@ -204,7 +208,8 @@
         display: flex;
         box-sizing: border-box;
         align-items: center;
-        padding-left: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
 
     }
     
@@ -253,6 +258,7 @@
         flex-direction: column;
         margin-left: 84px;
         
+        
     }
     
     .address li:nth-child(n+2) {
@@ -262,7 +268,7 @@
     .header-mail {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: left;
+        justify-content: flex-end;
         align-items: center;
         font-weight: 500;
         font-size: 12px;
@@ -278,7 +284,7 @@
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
-        justify-content: left;
+        justify-content: flex-end;
         font-weight: 500;
         font-size: 12px;
         line-height: 0.143;
@@ -360,7 +366,8 @@
         display: flex;
         box-sizing: border-box;
         align-items: center;
-        padding-left: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
 
     }
     

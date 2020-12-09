@@ -274,6 +274,7 @@ body.modal-open {
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: #2196F3;
+    margin-left: 5px;
   }
   .checkbox {
     display: flex;
@@ -312,6 +313,10 @@ body.modal-open {
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
+  }
+  .custom-chkbox {
+    display: flex;
+    align-items: center;
   }
   .btn-submit {
     display: flex;

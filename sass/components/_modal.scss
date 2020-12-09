@@ -213,6 +213,7 @@
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: #2196F3;
+    margin-left: 5px;
 
 }
 
@@ -265,7 +266,10 @@
     
 }
 
-
+.custom-chkbox {
+    display: flex;
+    align-items: center;
+}
 
 .btn-submit {
     display: flex;

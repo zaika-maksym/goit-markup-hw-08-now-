@@ -269,6 +269,7 @@
 .custom-chkbox {
     display: flex;
     align-items: center;
+    line-height: 15px;
 }
 
 .btn-submit {
@@ -500,17 +501,22 @@
     
     
     .contract {
+        margin-left: 7px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 15px; //24px
         letter-spacing: 0.03em;
         text-decoration-line: underline;
         color: #2196F3;
     
     }
     
+    .custom-chkbox {
+        display: flex;
+        align-items: center;
+    }
     
     .checkbox {
         display: block;
@@ -523,7 +529,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 15px; //24px
         letter-spacing: 0.03em;
         color: #757575;
     }
@@ -785,6 +791,7 @@
         
         
         .contract {
+            margin-left: 7px;
             font-family: Roboto;
             font-style: normal;
             font-weight: 400;
@@ -830,7 +837,7 @@
           }
         
         .custom-chkbox::before {
-            display: inline-block;
+            // display: inline-block;
             content:"";
             width: 16px;
             height: 15px;
@@ -844,7 +851,10 @@
             
         }
         
-        
+        .custom-chkbox {
+            display: flex;
+            align-items: center;
+        }
         
         .btn-submit{
             display: flex;
@@ -882,6 +892,4 @@
         
         
     }
-
-    
     

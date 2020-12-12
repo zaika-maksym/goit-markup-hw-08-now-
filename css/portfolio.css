@@ -752,7 +752,7 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 100px) and (max-width: 326px) {
+@media screen and (min-width: 100px) and (max-width: 325px) {
   .portfolio-all {
     display: block;
     padding: 10px;
